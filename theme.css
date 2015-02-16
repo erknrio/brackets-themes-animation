@@ -1,0 +1,69 @@
+/* THEME CSS */
+
+/* CUSTOM CSS
+Replace this styles for your own styles */
+
+/* Matching Brackets and Tags */
+.CodeMirror-matchingbracket {
+    color: #d4d4d4 !important;
+    box-shadow: 0 0 1em #ff3030;
+    border-radius:0.5em;
+    border:1pt solid #ff8500;
+    background-color: #7dc773;
+    -webkit-animation: hilightMB 2s alternate ease-in-out infinite;
+}
+/* Change background-color to your custom color */
+@-webkit-keyframes hilightMB {
+    0%
+    {
+        background-color:#ff8500;
+        border:1pt solid #F000AC;
+        box-shadow: 0 0 1em #FF0AE0;
+    }
+
+    50%
+    {
+        background-color: transparent;
+        border:1pt solid transparent;
+        box-shadow: 0 0 1em transparent;
+    }
+
+    100%
+    {
+        background-color:#0AE0FF;
+        border:1pt solid #00ACF0;
+        box-shadow: 0 0 1em #0AE0FF;
+    }
+}
+
+.CodeMirror-matchingtag {
+    color: trasparent !important;
+    background-color: #0AE0FF;
+    -webkit-animation: hilightMB 3s alternate ease-in-out infinite;
+}
+
+/* Change background-color to your custom color */
+@-webkit-keyframes hilightMB {
+    0%
+    {
+        background-color:#7dc773;
+        border:1pt solid #F000AC;
+        box-shadow: 0 0 1em #FF0AE0;
+    }
+
+    50%
+    {
+        background-color: transparent;
+        border:1pt solid transparent;
+        box-shadow: 0 0 1em transparent;
+    }
+
+    100%
+    {
+        background-color:#2f9621;
+        border:1pt solid #00ACF0;
+        box-shadow: 0 0 1em #0AE0FF;
+    }
+}
+
+/* MORE THEME CSS*/
